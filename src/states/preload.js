@@ -20,7 +20,9 @@ class statePreload extends Phaser.State {
   }
 
   startLoading() {
-    this.game.load.image('logo', 'assets/phaser2.png');
+    this.game.plugins.add(new Phaser.Plugin.Isometric(this.game));
+    this.game.physics.startSystem(Phaser.Plugin.Isometric.ISOARCADE);
+    this.game.load.image('cube', 'assets/cube.png');
     this.game.load.start();
   }
 

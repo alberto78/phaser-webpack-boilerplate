@@ -2757,6 +2757,10 @@ phaser-ce@2.10.1:
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/phaser-ce/-/phaser-ce-2.10.1.tgz#504962d509dee2c9c595398fbe3f5dbcbb173a50"
 
+"phaser-plugin-isometric@https://github.com/alberto78/phaser-plugin-isometric":
+  version "0.9.4"
+  resolved "https://github.com/alberto78/phaser-plugin-isometric#199705263b769d65b254892fb75335ec09afe10a"
+
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
